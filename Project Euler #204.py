@@ -31,6 +31,6 @@ def generalisedHammingNumbers(n, k):
     return search(primes, n)
 
 if __name__ == "__main__":
-    n, k = 10**17, 5
+    n, k = 10**2, 5
     result = generalisedHammingNumbers(n, k)
     print(result)
