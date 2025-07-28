@@ -19,10 +19,10 @@ for i in range(1, 10000000):
     if euler_92(i):
         c += 1
     if c%100000 == 0:#To check progress
-        print('a')
+        print(c)
 
 t1 = t()
 
 print(c)
-print(t1 - t0)
+print(t1 - t0) # ~18s
 

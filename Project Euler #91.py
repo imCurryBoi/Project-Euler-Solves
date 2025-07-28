@@ -8,5 +8,5 @@ for i in range(0, 51):
 		for k in range(0, 51):
 			for l in range(0, 51):
 				if is_right_tri(i,j,k,l):
-					c += 1/2
-print(c)
+					c += 1
+print(c//2)

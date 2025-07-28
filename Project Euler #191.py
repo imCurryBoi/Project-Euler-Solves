@@ -13,7 +13,7 @@ for k in range(lim - 2):
 			vals[i[-1] + 'l'] += vals[i]
 print(vals)
 print(sum([vals[i] for i in vals]), time()-t)'''
-n =10**5
+n = 30
 
 prizes = [[[0 for _ in range(2)] for _ in range(3)] for _ in range(n + 1)]
 prizes[0][0][0] = 1#initialization
